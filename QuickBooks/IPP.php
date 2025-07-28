@@ -18,7 +18,7 @@
 
 if (!defined('QUICKBOOKS_IPP_MINORVERSION'))
 {
-	define('QUICKBOOKS_IPP_MINORVERSION', 68);
+	define('QUICKBOOKS_IPP_MINORVERSION', 75);
 }
 
 // Load the HTTP request class
