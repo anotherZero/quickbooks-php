@@ -59,6 +59,16 @@ Please follow me on Twitter to be notified about updates/improvements:
 
 You will find examples in the docs/ folder.
 
+### Using an existing PDO connection
+
+If your application already uses PDO (for instance, Laravel's database layer),
+you can pass the PDO instance directly when initializing the framework:
+
+```php
+$pdo = DB::connection()->getPdo();
+QuickBooks_Utilities::initialize($pdo);
+```
+
 
 ### Examples for QuickBooks ONLINE
 
